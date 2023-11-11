@@ -1,3 +1,4 @@
+    *gitignore: cree una carpeta que no sea leida por git.
     *git init: solo se realiza una sola vez.
     *gid status: sirve para saber si los cambios generados en las carpetas fueron guardados.
     *gid add: sirve para agregar los cambios.
