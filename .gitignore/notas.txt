@@ -1,0 +1,13 @@
+    *git init: solo se realiza una sola vez.
+    *gid status: sirve para saber si los cambios generados en las carpetas fueron guardados.
+    *gid add: sirve para agregar los cambios.
+    *git commit -m"Estado inicial del proyecto": es la primera "instantanea" del proyecto.
+    *git log: sirve para ver cuantas versiones tengo del proyecto.
+    *git log --oneline: devuelve un listado pero con menos detalles, pero con la cantidad de intantaneas creadas.
+    *git 
+
+
+
+
+
+    
