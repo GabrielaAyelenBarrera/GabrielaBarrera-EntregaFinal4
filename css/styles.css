@@ -319,9 +319,9 @@ align-items: center;justify-content: space-between;
 
 
 
-/* di color a un parrafo*/
+/* aplique gradiente*/
 
-.text-content{background-color: rgb(217, 213, 238);
+.text-content{background-image: linear-gradient(to bottom, #c2bcd8, #c0bad8, #bdb8d8, #bbb6d9, #b8b4d9, #b5b1db, #b1addd, #aeaadf, #a9a5e2, #a3a0e6, #9d9ce9, #9797ec);
     width: 50x;
     height: 500px;
     overflow: scroll;
