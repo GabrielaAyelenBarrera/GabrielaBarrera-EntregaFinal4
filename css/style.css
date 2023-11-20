@@ -2,8 +2,9 @@
   background-image: linear-gradient(to right, #3605dc, #6243e5, #846ced, #a492f1, #c3b9f4, #c3b9f4, #c3b9f4, #c3b9f4, #a492f1, #846ced, #6243e5, #3605dc);
   background-size: 400%;
   background-position: left;
-
-  &:hover {
-    background-position: right;
-  }
 }
+.boton.boton_sass:hover {
+  background-position: right;
+}
+
+/*# sourceMappingURL=style.css.map */
