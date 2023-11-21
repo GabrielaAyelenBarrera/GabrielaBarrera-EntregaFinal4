@@ -1,3 +1,7 @@
+
+
+//Aplique gradiente al boton descubrir
+
 .boton.boton_sass {
   background-image: linear-gradient(to right, #3605dc, #6243e5, #846ced, #a492f1, #c3b9f4, #c3b9f4, #c3b9f4, #c3b9f4, #a492f1, #846ced, #6243e5, #3605dc);
   background-size: 400%;
@@ -7,3 +11,92 @@
     background-position: right;
   }
 }
+
+//Aplique animaciones al formulario
+
+// Definición de variables para reutilizar colores y estilos
+$color-primario: #6827e2;
+$color-hover: #458ea0;
+$border-color-normal: #ccc;
+
+// Animación para resaltar los campos de entrada al hacer hover
+@mixin highlightOnHover {
+  &:hover {
+    box-shadow: 0 0 5px lighten($color-primario, 20%);
+  }
+}
+
+// Estilos generales del formulario
+form {
+  max-width: 400px;
+  margin: 0 auto;
+
+  // Estilos para el fieldset
+  fieldset {
+    border: 1px solid $border-color-normal;
+    padding: 20px;
+    border-radius: 10px;
+    transition: border-color 0.3s;
+
+    // Animación para cambiar el color del borde al hacer hover en el fieldset
+    &:hover {
+      border-color: $color-primario;
+    }
+
+    // Estilos para la leyenda
+    legend {
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+
+    // Estilos para los elementos del formulario
+    .form-group {
+      margin-bottom: 15px;
+
+      // Estilos para las etiquetas
+      label {
+        display: block;
+        margin-bottom: 5px;
+      }
+
+      // Estilos para los campos de entrada de texto
+      input[type="text"],
+      input[type="email"],
+      input[type="password"],
+      textarea {
+        width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+        border: 1px solid $border-color-normal;
+        border-radius: 5px;
+        transition: border-color 0.3s;
+
+        // Animación de resaltado al hacer hover
+        @include highlightOnHover;
+
+        &:focus {
+          border-color: $color-primario;
+        }
+      }
+
+      // Estilos para los botones de limpiar y enviar
+      input[type="reset"],
+      input[type="submit"] {
+        background-color: $color-primario;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+
+        // Animación de cambio de color al hacer hover
+        &:hover {
+          background-color: $color-hover;
+        }
+      }
+    }
+  }
+}
+
+

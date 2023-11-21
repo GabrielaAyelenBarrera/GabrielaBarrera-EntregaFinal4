@@ -12,6 +12,16 @@
 <!-- titulo-->
     <title>Logistica e-commerce</title>
 </nav>
+
+<!-- aplica animaciones -->
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+<!-- aplica AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 <!-- Enlace al archivo CSS de Bootstrap -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
@@ -51,8 +61,9 @@
 
 <!-- listas desordenadas para ingresar a las paginas-->
     <nav class="navegacion">
-<!--sirve para ver cuanto mide el logo container-->
-        <div class="logo_container">
+
+<!--Aplique animaciones al logo --> 
+        <div class="animate__animated animate__rubberBand animate__repeat-2">
         <img src="../img/MicrosoftTeams-image (1).png" alt="">
         <br>
         <br>
@@ -87,7 +98,7 @@
 <!--PROBANDO CHAT GPT--> 
 <div class="contenedor-flexbox">
     
-<h1 class="principal">GLSERVICIOS</h1>
+<h1 class="principal" >GLSERVICIOS</h1>
 
 <!-- enlaces relativos (cambia de pag)-->
 <a href="./pages/nosotros.html"class="boton boton_descubrir">Contactanos</a>
@@ -104,7 +115,7 @@
 <br>
 
 <!-- video externo -->
-<iframe src="./video/tresdefebrero.mp4" height="500px" width="100%" title="¿Quienes somos?"></iframe>
+<iframe src="./video/tresdefebrero.mp4" height="500px" width="100%" title="¿Quienes somos?"  data-aos="fade-up"></iframe>
 
 <h2>Servicios de Fulfillment</h2>
  <ol>
@@ -180,6 +191,11 @@
     <p>&copy; 2023 GL Servicios. Todos los derechos reservados.</p>
   </footer>
 
+<!-- AOS-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 
 </body>
 </html>

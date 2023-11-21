@@ -7,4 +7,66 @@
   background-position: right;
 }
 
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+form fieldset {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  transition: border-color 0.3s;
+}
+form fieldset:hover {
+  border-color: #6827e2;
+}
+form fieldset legend {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+form fieldset .form-group {
+  margin-bottom: 15px;
+}
+form fieldset .form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+form fieldset .form-group input[type=text],
+form fieldset .form-group input[type=email],
+form fieldset .form-group input[type=password],
+form fieldset .form-group textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s;
+}
+form fieldset .form-group input[type=text]:hover,
+form fieldset .form-group input[type=email]:hover,
+form fieldset .form-group input[type=password]:hover,
+form fieldset .form-group textarea:hover {
+  box-shadow: 0 0 5px #a781ee;
+}
+form fieldset .form-group input[type=text]:focus,
+form fieldset .form-group input[type=email]:focus,
+form fieldset .form-group input[type=password]:focus,
+form fieldset .form-group textarea:focus {
+  border-color: #6827e2;
+}
+form fieldset .form-group input[type=reset],
+form fieldset .form-group input[type=submit] {
+  background-color: #6827e2;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+form fieldset .form-group input[type=reset]:hover,
+form fieldset .form-group input[type=submit]:hover {
+  background-color: #458ea0;
+}
+
 /*# sourceMappingURL=style.css.map */
