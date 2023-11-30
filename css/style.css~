@@ -11,31 +11,30 @@ form {
   max-width: 400px;
   margin: 0 auto;
 }
-
-fieldset {
+form fieldset {
   border: 1px solid #ccc;
   padding: 20px;
   border-radius: 10px;
+  transition: border-color 0.3s;
 }
-
-legend {
+form fieldset:hover {
+  border-color: #6827e2;
+}
+form fieldset legend {
   font-size: 1.2em;
   font-weight: bold;
 }
-
-.form-group {
+form fieldset .form-group {
   margin-bottom: 15px;
 }
-
-label {
+form fieldset .form-group label {
   display: block;
   margin-bottom: 5px;
 }
-
-input[type=text],
-input[type=email],
-input[type=password],
-textarea {
+form fieldset .form-group input[type=text],
+form fieldset .form-group input[type=email],
+form fieldset .form-group input[type=password],
+form fieldset .form-group textarea {
   width: 100%;
   padding: 8px;
   box-sizing: border-box;
@@ -43,17 +42,21 @@ textarea {
   border-radius: 5px;
   transition: border-color 0.3s;
 }
-
-input[type=text]:focus,
-input[type=email]:focus,
-input[type=password]:focus,
-textarea:focus {
-  border-color: #4CAF50;
+form fieldset .form-group input[type=text]:hover,
+form fieldset .form-group input[type=email]:hover,
+form fieldset .form-group input[type=password]:hover,
+form fieldset .form-group textarea:hover {
+  box-shadow: 0 0 5px #a781ee;
 }
-
-input[type=reset],
-input[type=submit] {
-  background-color: #4CAF50;
+form fieldset .form-group input[type=text]:focus,
+form fieldset .form-group input[type=email]:focus,
+form fieldset .form-group input[type=password]:focus,
+form fieldset .form-group textarea:focus {
+  border-color: #6827e2;
+}
+form fieldset .form-group input[type=reset],
+form fieldset .form-group input[type=submit] {
+  background-color: #6827e2;
   color: white;
   padding: 10px 15px;
   border: none;
@@ -61,10 +64,62 @@ input[type=submit] {
   cursor: pointer;
   transition: background-color 0.3s;
 }
+form fieldset .form-group input[type=reset]:hover,
+form fieldset .form-group input[type=submit]:hover {
+  background-color: #458ea0;
+}
 
-input[type=reset]:hover,
-input[type=submit]:hover {
-  background-color: #45a049;
+@keyframes scaleUp {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes moveUp {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.boxes-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.boxes-container .box {
+  padding: 20px;
+  text-align: center;
+  background-color: #3498db;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.boxes-container .box:hover {
+  background-color: #2980b9;
+}
+.boxes-container .box.box1 {
+  animation: scaleUp 1s infinite alternate;
+}
+.boxes-container .box.box2 {
+  animation: moveUp 1s infinite alternate;
+}
+.boxes-container .box.box3 {
+  animation: scaleUp 1s infinite alternate, moveUp 1s infinite alternate;
+}
+.boxes-container .box a {
+  text-decoration: none;
+  color: inherit;
 }
 
 /*# sourceMappingURL=style.css~.map */
