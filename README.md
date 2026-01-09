@@ -53,19 +53,15 @@ Se abrirá en el navegador con una URL similar a:
 ---
 
 ## 🖼️ Vista previa
-> Podés agregar capturas acá para que se vea más profesional
+<img width="1581" height="959" alt="image" src="https://github.com/user-attachments/assets/d9b93ebb-6d48-47d9-a435-81c184ddb4fb" />
+<img width="1444" height="867" alt="image" src="https://github.com/user-attachments/assets/07a3d797-d584-4539-93ae-427c6d415d5d" />
+<img width="1350" height="948" alt="image" src="https://github.com/user-attachments/assets/246cec83-f124-4c18-afff-31d6ed055834" />
+<img width="1341" height="866" alt="image" src="https://github.com/user-attachments/assets/3c29fb7e-25f1-4ea6-adcd-824e21c5a6aa" />
+<img width="1341" height="952" alt="image" src="https://github.com/user-attachments/assets/771333f4-f2ec-4039-94c4-32576b62f7e1" />
 
-Ejemplo:
-- `img/preview-home.png`
-- `img/preview-servicios.png`
 
----
 
-## 🔧 Notas / Mejoras futuras
-- Optimizar rutas y consistencia de nombres de carpetas (ej: `img` vs `imagen`)
-- Unificar estilos para evitar duplicación (`styles.css` vs `style.css`)
-- Agregar un favicon definitivo y corregir etiquetas `rel` (shortcut icon)
-- Agregar sección real de contacto y links reales en el footer
+
 
 ---
 
