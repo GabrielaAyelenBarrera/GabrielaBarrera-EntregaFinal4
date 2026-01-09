@@ -1,4 +1,4 @@
-# GLSERVICIOS – Logística eCommerce (Sitio Web)
+# Logística eCommerce (Sitio Web)
 
 Sitio web estático orientado a **servicios de logística y fulfillment para eCommerce**.  
 Incluye navegación multi‐página, estilos con **CSS + SASS**, animaciones, recursos multimedia (video/audio) e íconos.
