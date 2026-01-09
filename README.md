@@ -57,6 +57,7 @@ Se abrirá en el navegador con una URL similar a:
 <img width="1444" height="867" alt="image" src="https://github.com/user-attachments/assets/07a3d797-d584-4539-93ae-427c6d415d5d" />
 <img width="1350" height="948" alt="image" src="https://github.com/user-attachments/assets/246cec83-f124-4c18-afff-31d6ed055834" />
 <img width="1341" height="866" alt="image" src="https://github.com/user-attachments/assets/3c29fb7e-25f1-4ea6-adcd-824e21c5a6aa" />
+<img width="1366" height="946" alt="image" src="https://github.com/user-attachments/assets/de046810-4f8a-450d-ba9c-d01cf0995f07" />
 <img width="1341" height="952" alt="image" src="https://github.com/user-attachments/assets/771333f4-f2ec-4039-94c4-32576b62f7e1" />
 
 
