@@ -46,9 +46,11 @@ Este proyecto es **frontend estático**, no requiere backend.
 2. Iniciá el servidor de desarrollo:
    ```bash
    npm run dev
-```
+
 Se abrirá en el navegador con una URL similar a:
 `[http://127.0.0.1:5500/desarrollo-web-coderhouse-main/index.html](http://127.0.0.1:5500/desarrollo-web-coderhouse-main/index.html)`
+
+
 
 ---
 
