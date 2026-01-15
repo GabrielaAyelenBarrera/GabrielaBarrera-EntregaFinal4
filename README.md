@@ -33,13 +33,22 @@ Incluye navegación multi‐página, estilos con **CSS + SASS**, animaciones, re
 ## ▶️ Cómo correr el proyecto (local)
 Este proyecto es **frontend estático**, no requiere backend.
 
-### Opción recomendada: VS Code + Live Server
+### Opción 1 recomendada: VS Code + Live Server 
 1. Abrí la carpeta del proyecto en VS Code
 2. Instalá la extensión **Live Server**
 3. Click derecho sobre `index.html` → **Open with Live Server**
 
+--
+
+### Opción 2: Servidor de desarrollo con npm
+
+1. Abrí la carpeta del proyecto en VS Code  
+2. Iniciá el servidor de desarrollo:
+   ```bash
+   npm run dev
+```
 Se abrirá en el navegador con una URL similar a:
-`http://127.0.0.1:5500/index.html`
+`[http://127.0.0.1:5500/desarrollo-web-coderhouse-main/index.html](http://127.0.0.1:5500/desarrollo-web-coderhouse-main/index.html)`
 
 ---
 
@@ -55,26 +64,25 @@ Se abrirá en el navegador con una URL similar a:
 ## 🖼️ Vista previa
 ### 🏠 Inicio
 
-<img width="1581" height="959" alt="image" src="https://github.com/user-attachments/assets/d9b93ebb-6d48-47d9-a435-81c184ddb4fb" />
+<img width="1685" height="993" alt="image" src="https://github.com/user-attachments/assets/402e3a01-4291-4f7c-babe-b90a0cd9ad8d" />
+<img width="1686" height="995" alt="image" src="https://github.com/user-attachments/assets/3f262b98-574a-4bc1-801e-b53eefa7b271" />
 
 
 ### 🛠️ Servicios
-
-<img width="1444" height="867" alt="image" src="https://github.com/user-attachments/assets/07a3d797-d584-4539-93ae-427c6d415d5d" />
-
+<img width="1681" height="777" alt="image" src="https://github.com/user-attachments/assets/8eb93dc9-bd6e-4d4c-a394-044140074890" />
+<img width="1684" height="992" alt="image" src="https://github.com/user-attachments/assets/f774658b-16ad-4a70-9fe4-0bf2eea8e923" />
 
 ### 💻 Tecnología
-<img width="1350" height="948" alt="image" src="https://github.com/user-attachments/assets/246cec83-f124-4c18-afff-31d6ed055834" />
+<img width="1687" height="993" alt="image" src="https://github.com/user-attachments/assets/46437831-e80e-4990-9fd5-ae48145939f2" />
 
 
 ### 👥 Nosotros
-<img width="1341" height="866" alt="image" src="https://github.com/user-attachments/assets/3c29fb7e-25f1-4ea6-adcd-824e21c5a6aa" />
-
-<img width="1366" height="946" alt="image" src="https://github.com/user-attachments/assets/de046810-4f8a-450d-ba9c-d01cf0995f07" />
+<img width="1683" height="771" alt="image" src="https://github.com/user-attachments/assets/fd5b737b-4042-40b2-b6a3-978dbb89f659" />
+<img width="1678" height="992" alt="image" src="https://github.com/user-attachments/assets/0059e472-fa61-424c-b14d-f87d29591f66" />
 
 
 ### 🤝 Clientes
-<img width="1341" height="952" alt="image" src="https://github.com/user-attachments/assets/771333f4-f2ec-4039-94c4-32576b62f7e1" />
+<img width="1682" height="991" alt="image" src="https://github.com/user-attachments/assets/565ed72e-9130-4c57-8bbd-9b3b331688d2" />
 
 
 
