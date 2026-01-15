@@ -38,7 +38,7 @@ Este proyecto es **frontend estático**, no requiere backend.
 2. Instalá la extensión **Live Server**
 3. Click derecho sobre `index.html` → **Open with Live Server**
 
---
+---
 
 ### Opción 2: Servidor de desarrollo con npm
 
